@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+	<title>
+		Cadastro Rosman EAD2
+	</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<h1 align = "center" > Cadastro </h1>
+
+	<form align = "center" action="saida.php" method="POST" >
+	<div class="formulario">
+		<p>
+			Nome da Banda:<br>
+			<input type="text" name="nomeBanda"> 
+		</p>
+		<p>
+			<em>Link</em> para imagem:<br>
+			<input type="text" name="linkImagem"> 
+		</p>
+		<p>
+			<strong>Integrante 1 </strong>- nome:<br>
+			<input type="text" name="nomeIntegrante1"> 
+		</p>
+		<p>
+			<strong>Integrante 1 </strong>- data de nascimento:<br>
+			<input type="text" name="dNascIntegrante1"> 
+		</p>
+		<p>
+			<strong>Integrante 1 </strong>- instrumento:<br>
+			<input type="text" name="instrumento1"> 
+		</p>
+		<p>
+			<strong>Integrante 2 </strong>- nome:<br>
+			<input type="text" name="nomeIntegrante2"> 
+		</p>
+		<p>
+			<strong>Integrante 2 </strong>- data de nascimento:<br>
+			<input type="text" name="dNascIntegrante2" > 
+		</p>
+		<p>
+			<strong>Integrante 2 </strong>- instrumento:<br>
+			<input type="text" name="instrumento2"> 
+		</p>
+		<p>
+			<strong>Integrante 3 </strong>- nome:<br>
+			<input type="text" name="nomeIntegrante3">
+		</p> 
+		<p>
+			<strong>Integrante 3 </strong>- data de nascimento:<br>
+			<input type="text" name="dNascIntegrante3"> 
+		</p>
+		<p>
+			<strong>Integrante 3 </strong>- instrumento:<br>
+			<input type="text" name="instrumento3"> 
+		</p>
+	</div>
+	<div class="formulario2">	
+		<p>
+			Biografia da banda:<br>
+			<textarea cols="60" rows="25" name="biografia"></textarea>
+		</p>
+		<p>
+		Cor de fundo:<br>
+		<select name="corFundo" size="1">
+			<option >Azul</option>
+			<option >Amarelo</option>
+			<option >Branco</option>
+			<option >Preto</option>
+			<option >Verde</option>
+			<option >Vermelho</option>
+		</select>
+		</p>
+		<p id="mudaCorTexto">
+		Cor do texto:<br>
+		<select name="corTexto" size="1" >
+			<option >Azul</option>
+			<option >Amarelo</option>
+			<option >Branco</option>
+			<option >Preto</option>
+			<option >Verde</option>
+			<option >Vermelho</option>
+		</select>
+		</p>
+		<input type="submit" name="enviar" value="Gerar site">
+	</div>	
+		
+	</form>
+</body>
+</html>
